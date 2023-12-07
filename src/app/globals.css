@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(91, 89, 224, 0.5);
+}
+
+.hero {
+  background: url("../assets/hero.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: difference;
+}
